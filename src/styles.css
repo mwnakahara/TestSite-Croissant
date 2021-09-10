@@ -1,0 +1,44 @@
+:root {
+  --primary-color: darkgoldenrod;
+  --secondary-color: rgb(160, 82, 45, 0.8);
+}
+
+body {
+  text-align: center;
+  background-color: rgb(255, 228, 196, 0.7);
+  color: var(--primary-color);
+max-width: 700px;
+display: block;
+margin: 50px auto;
+padding: 30px 20px;
+border: 1px dotted var(--secondary-color);
+border-radius: 50%;
+}
+
+h1 {
+  color: var(--secondary-color);
+}
+
+p {
+  font-size: 17px;
+  line-height: 1.25;
+}
+
+.pic-description {
+  margin-top: 5px;
+  margin-bottom: 15px;
+  
+}
+
+.menu {
+  margin: 30px;
+}
+
+a {
+  color: var(--secondary-color);
+   padding: 10px;
+}
+
+a:visited {
+  color: var(--secondary-color);
+}
